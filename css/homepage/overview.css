@@ -1,0 +1,147 @@
+.overview-section {
+  position: relative;
+  width: 100%;
+  padding: 4rem 2.2rem;
+}
+
+.overview-container {
+  max-width: 1300px;
+  margin: auto;
+  position: relative;
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.overview-container .overview-content .overview-logo {
+  width: 20rem;
+}
+
+.overview-content .overview-label-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.overview-content .overview-label-container .overview-label-icon {
+  width: 2rem;
+}
+
+.overview-content {
+  /* flex: 1; */
+  z-index: 2;
+  width: 60%;
+}
+
+.overview-title-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.overview-label {
+  font-size: 1.6rem;
+  color: #0047ab;
+  font-weight: 400;
+  font-family: var(--ff-pacifico);
+}
+
+.overview-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #111;
+  font-family: var(--ff-ubuntu);
+}
+
+.overview-subtitle {
+  font-style: italic;
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-family: var(--ff-playpen);
+}
+
+.overview-description {
+  font-size: 1.4rem;
+  color: #444;
+  margin-bottom: 1.5rem;
+  line-height: 1.7;
+  font-family: var(--ff-jakarta);
+}
+
+.unique-title {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  font-weight: 600;
+  color: #111;
+  font-family: var(--ff-roboto);
+}
+
+.unique-title-highlight {
+  color: var(--primary-clr);
+}
+
+.overview-highlight {
+  font-size: 1.4rem;
+  color: #222;
+  margin-bottom: 1rem;
+  font-family: var(--ff-roboto);
+}
+
+.overview-highlight strong {
+  font-size: 1.4rem;
+  color: var(--primary-clr);
+  margin-bottom: 1rem;
+}
+
+.overview-list {
+  font-size: 1.4rem;
+  color: #333;
+  line-height: 1.6;
+  padding-left: 1rem;
+}
+
+.overview-list li {
+  margin-bottom: 0.8rem;
+  list-style: disc;
+}
+
+.overview-list li::marker {
+  color: var(--primary-clr);
+}
+
+/* Right-side image styling */
+.overview-image {
+  position: absolute;
+  top: -25rem;
+  right: -2.7rem;
+  height: 100%;
+  max-width: 50%;
+  width: 100%;
+  z-index: 1;
+}
+
+.overview-image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .overview-container {
+    flex-direction: column;
+  }
+
+  .overview-image {
+    position: relative;
+    clip-path: none;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 2rem;
+    height: auto;
+  }
+
+  .overview-image img {
+    height: auto;
+  }
+}
