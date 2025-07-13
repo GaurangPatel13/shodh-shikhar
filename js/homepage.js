@@ -46,3 +46,22 @@ function moveToNextSlide() {
 
 setInterval(moveToNextSlide, 2100); // 1.5s pause + 0.6s transition
 
+// host university section co-sponsor part
+
+function slideImage(button, direction) {
+  const slider = button.closest('.image-slider');
+  const track = slider.querySelector('.image-track');
+  const images = track.querySelectorAll('img');
+  const totalSlides = images.length;
+  const slideWidth = slider.offsetWidth;
+
+  let currentIndex = parseInt(track.getAttribute('data-index')) || 0;
+
+  currentIndex += direction;
+  if (currentIndex < 0) currentIndex = totalSlides - 1;
+  if (currentIndex >= totalSlides) currentIndex = 0;
+
+  track.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+  track.setAttribute('data-index', currentIndex);
+}
+

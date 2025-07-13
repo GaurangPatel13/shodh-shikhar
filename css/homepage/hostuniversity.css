@@ -119,85 +119,120 @@
     line-height: 3rem;
 }
 
-.co-sponsor {
+.host-university .co-sponsor-section {
   padding: 4rem 2rem;
-  background-color: #fff;
+  background-color: #f9f9f9;
+  margin-top: 4rem;
+  font-family: var(--ff-popins);
 }
 
-.co-sponsor-title {
+.host-university .co-sponsor-section .section-title {
   font-size: 3rem;
-  text-align: center;
   font-weight: 700;
-  font-family: var(--ff-jakarta);
-  margin-bottom: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: var(--ff-ubuntu);
 }
 
-.sponsor-grid {
+.host-university .co-sponsor-section .sponsor-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
 }
 
-.sponsor-card {
-  background: #f7f7f7;
-  border-radius: 1rem;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+.host-university .co-sponsor-section .sponsor-grid .sponsor-card {
+  background: #fff;
+  border-radius: 10px;
   overflow: hidden;
-  transition: transform 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  display: flex;
+  padding: 1rem;
 }
 
-.sponsor-card:hover {
-  transform: translateY(-5px);
+.host-university .co-sponsor-section .sponsor-grid .sponsor-card .image-slider {
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+  border-radius: 10px;
 }
 
-.sponsor-card img {
+.host-university .co-sponsor-section .sponsor-grid .sponsor-card .image-slider .image-track {
+  display: flex;
+  transition: transform 0.4s ease-in-out;
+}
+
+.host-university .co-sponsor-section .sponsor-grid .sponsor-card .image-slider img {
   width: 100%;
-  height: 180px;
+  height: 200px;
   object-fit: cover;
+  flex-shrink: 0;
 }
 
-.sponsor-content {
+.host-university .co-sponsor-section .sponsor-grid .sponsor-card .image-slider .slider-btn {
+  position: absolute;
+  bottom: 0.5rem;
+  transform: translateY(-50%);
+  background-color: #003366;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1.3rem;
+  font-size: 2rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  z-index: 2;
+}
+
+.host-university .co-sponsor-section .sponsor-grid .sponsor-card .image-slider .slider-btn.prev {
+  left: 10px;
+}
+
+.host-university .co-sponsor-section .sponsor-grid .sponsor-card .image-slider .slider-btn.next {
+  right: 10px;
+}
+
+.host-university .co-sponsor-section .sponsor-grid .sponsor-card .sponsor-content {
   padding: 1.5rem;
   text-align: left;
 }
 
-.sponsor-content .sponsor-logo {
-  width: 130px;
-  margin-bottom: 1rem;
+.host-university .co-sponsor-section .sponsor-grid .sponsor-card .sponsor-content .sponsor-logo {
+  width: 12rem;
 }
 
-.sponsor-content h3 {
-  font-size: 1.8rem;
+.host-university .co-sponsor-section .sponsor-grid .sponsor-card .sponsor-content  h3 {
+  font-size: 1.6rem;
   font-weight: 600;
-  color: #000;
+  margin-bottom:0.5rem;
 }
 
-.sponsor-content p {
-  font-size: 1.5rem;
-  margin: 0.8rem 0;
-  color: #333;
+.host-university .co-sponsor-section .sponsor-grid .sponsor-card .sponsor-content  p {
+  font-size: 1.25rem;
+  margin-bottom:0.5rem;
+  color: #555;
 }
 
-.sponsor-content ul {
-  padding-left: 1.2rem;
+.host-university .co-sponsor-section .sponsor-grid .sponsor-card .sponsor-content  ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  color: #222;
+  font-size: 1.25rem;
 }
 
-.sponsor-content li {
-  font-size: 1.4rem;
-  margin: 0.3rem 0;
-  color: #444;
+.host-university .co-sponsor-section .sponsor-grid .sponsor-card .sponsor-content  ul li::marker {
+    color: var(--primary-clr);
 }
 
-.sponsor-partners {
-  margin-top: 4rem;
+.host-university .co-sponsor-section .co-sponsor-logos {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 2.5rem;
+  gap: 2rem;
+  margin-top: 3rem;
+  padding: 2rem 1rem;
 }
 
-.sponsor-partners img {
-  max-height: 60px;
+.host-university .co-sponsor-section .co-sponsor-logos img {
+  width: 29rem;
   object-fit: contain;
 }
 
@@ -207,7 +242,7 @@
     height: 180px;
   }
 
-  .slider-track img {
+  .host-university .host-slider-wrapper .slider-track img {
     height: 180px;
   }
 }
