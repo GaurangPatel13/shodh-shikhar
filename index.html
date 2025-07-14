@@ -23,9 +23,15 @@
     <link rel="stylesheet" href="./css/homepage/hero.css" />
     <link rel="stylesheet" href="./css/homepage/announcement.css" />
     <link rel="stylesheet" href="./css/homepage/overview.css" />
+    <link rel="stylesheet" href="./css/homepage/category.css" />
     <link rel="stylesheet" href="./css/homepage/events.css" />
     <link rel="stylesheet" href="./css/homepage/publication.css" />
     <link rel="stylesheet" href="./css/homepage/hostuniversity.css" />
+    <link rel="stylesheet" href="./css/homepage/reviews.css" />
+    <link rel="stylesheet" href="./css/homepage/gallery.css" />
+    <link rel="stylesheet" href="./css/homepage/winner.css" />
+    <link rel="stylesheet" href="./css/homepage/showcasing.css" />
+    <link rel="stylesheet" href="./css/homepage/footer.css" />
     <title>Shodh Shikhar</title>
   </head>
 
@@ -70,6 +76,7 @@
 
     <!-- Hero Section: Swiper Slider -->
     <section class="hero-slider">
+      <!-- <div class="swiper-main-backdrop-shade"></div> -->
       <div class="swiper mainSwiper">
         <div class="swiper-wrapper">
           <!-- Slide 1 -->
@@ -150,7 +157,6 @@
           <!-- Add more thumbnails -->
         </div>
       </div>
-      <div class="swiper-main-backdrop-shade"></div>
     </section>
 
     <!-- Announcement Marquee -->
@@ -484,6 +490,120 @@
       </div>
     </section>
 
+    <!-- Categories Section with Images -->
+    <section class="category-section">
+      <div class="category-heading">
+        <div class="theme-label-container">
+          <img src="./public/static/soft-star.png" class="theme-label-img" alt="">
+          <p class="theme-label">Prominent Theme</p>
+          <img src="./public/static/soft-star.png" class="theme-label-img" alt="">
+        </div>
+        <h2>Participation Categories</h2>
+      </div>
+
+      <!-- Research Paper -->
+      <div class="category-group">
+        <div class="category-image">
+          <img
+            src="./public/homepage/category-top-img1.png"
+            alt="Research Paper"
+          />
+        </div>
+        <div class="category-content">
+          <h3 class="category-title">RESEARCH PAPER</h3>
+          <div class="category-items">
+            <div class="category-item">
+              <img
+                src="./public/homepage/icons/category-top-icon1.png"
+                alt="Education"
+              />
+              <p>Humanities and Liberal Arts, Education</p>
+            </div>
+            <div class="category-item">
+              <img
+                src="./public/homepage/icons/category-top-icon2.png"
+                alt="Technology"
+              />
+              <p>Engineering & Technology</p>
+            </div>
+            <div class="category-item">
+              <img
+                src="./public/homepage/icons/category-top-icon3.png"
+                alt="Agriculture"
+              />
+              <p>Modern Science, Sustainable Agriculture & Food Security</p>
+            </div>
+            <div class="category-item">
+              <img
+                src="./public/homepage/icons/category-top-icon4.png"
+                alt="Commerce"
+              />
+              <p>Commerce, Management & Law</p>
+            </div>
+            <div class="category-item">
+              <img
+                src="./public/homepage/icons/category-top-icon5.png"
+                alt="Science Communication"
+              />
+              <p>Vigyan Pav – Science Communication</p>
+            </div>
+            <div class="category-item">
+              <img
+                src="./public/homepage/icons/category-top-icon6.png"
+                alt="Medical"
+              />
+              <p>Holistic Medical Science</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Research Project -->
+      <div class="category-group">
+        <div class="category-image">
+          <img
+            src="./public/homepage/category-bottom-img1.png"
+            alt="Research Project"
+          />
+        </div>
+        <div class="category-content">
+          <h3 class="category-title">RESEARCH PROJECT</h3>
+          <div class="category-items">
+            <div>
+              <div class="category-image-bottom-right">
+                <img
+                  src="./public/homepage/category-bottom-img2.png"
+                  alt="Research Paper"
+                />
+              </div>
+              <div class="category-item">
+                <img
+                  src="./public/homepage/icons/category-bottom-icon7.png"
+                  alt="Model Exhibition"
+                />
+                <p>Model Exhibition</p>
+              </div>
+            </div>
+            <div>
+              <div class="category-image-bottom-right">
+                <img
+                  src="./public/homepage/category-bottom-img3.png"
+                  alt="Research Paper"
+                />
+              </div>
+              <div class="category-item">
+              <img
+                src="./public/homepage/icons/category-bottom-icon8.png"
+                alt="Idea Commercialization"
+              />
+              <p>Idea Commercialization</p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Publications Section -->
     <section class="publications-section">
       <div class="container pub-container">
@@ -571,6 +691,7 @@
       </div>
     </section>
 
+    <!-- Host University Section -->
     <section class="host-university">
       <div class="section-subheading">
         <h3 class="section-subtitle">Hosting</h3>
@@ -629,9 +750,18 @@
           <div class="sponsor-card">
             <div class="image-slider">
               <div class="image-track" data-index="0">
-                <img src="./public/homepage/co-sponsor-card-img1.png" alt="Image 1" />
-                <img src="./public/homepage/co-sponsor-card-img2.png" alt="Image 2" />
-                <img src="./public/homepage/co-sponsor-card-img3.png" alt="Image 3" />
+                <img
+                  src="./public/homepage/co-sponsor-card-img1.png"
+                  alt="Image 1"
+                />
+                <img
+                  src="./public/homepage/co-sponsor-card-img2.png"
+                  alt="Image 2"
+                />
+                <img
+                  src="./public/homepage/co-sponsor-card-img3.png"
+                  alt="Image 3"
+                />
               </div>
               <button class="slider-btn prev" onclick="slideImage(this, -1)">
                 ‹
@@ -666,9 +796,18 @@
           <div class="sponsor-card">
             <div class="image-slider">
               <div class="image-track" data-index="0">
-                <img src="./public/homepage/co-sponsor-card-img4.png" alt="Image 1" />
-                <img src="./public/homepage/co-sponsor-card-img5.png" alt="Image 2" />
-                <img src="./public/homepage/co-sponsor-card-img6.png" alt="Image 3" />
+                <img
+                  src="./public/homepage/co-sponsor-card-img4.png"
+                  alt="Image 1"
+                />
+                <img
+                  src="./public/homepage/co-sponsor-card-img5.png"
+                  alt="Image 2"
+                />
+                <img
+                  src="./public/homepage/co-sponsor-card-img6.png"
+                  alt="Image 3"
+                />
               </div>
               <button class="slider-btn prev" onclick="slideImage(this, -1)">
                 ‹
@@ -685,14 +824,14 @@
               />
               <h3>Dr. C.V. Raman University, Chhattisgarh</h3>
               <p>
-                One of Central India's premier private universities brings strong academic infrastructure, research centers, and interdisciplinary contributions to Shodh Shikhar.
+                One of Central India's premier private universities brings
+                strong academic infrastructure, research centers, and
+                interdisciplinary contributions to Shodh Shikhar.
               </p>
               <ul>
                 <li>AICTE & UGC-approved</li>
                 <li>Known for research in Science, Agriculture & Law</li>
-                <li>
-                  Active contributor to Souvenir and Paper Submissions
-                </li>
+                <li>Active contributor to Souvenir and Paper Submissions</li>
               </ul>
             </div>
           </div>
@@ -701,9 +840,18 @@
           <div class="sponsor-card">
             <div class="image-slider">
               <div class="image-track" data-index="0">
-                <img src="./public/homepage/co-sponsor-card-img2.png" alt="Image 1" />
-                <img src="./public/homepage/co-sponsor-card-img4.png" alt="Image 2" />
-                <img src="./public/homepage/co-sponsor-card-img6.png" alt="Image 3" />
+                <img
+                  src="./public/homepage/co-sponsor-card-img2.png"
+                  alt="Image 1"
+                />
+                <img
+                  src="./public/homepage/co-sponsor-card-img4.png"
+                  alt="Image 2"
+                />
+                <img
+                  src="./public/homepage/co-sponsor-card-img6.png"
+                  alt="Image 3"
+                />
               </div>
               <button class="slider-btn prev" onclick="slideImage(this, -1)">
                 ‹
@@ -720,14 +868,14 @@
               />
               <h3>Dr. C.V. Raman University, Madhya Pradesh</h3>
               <p>
-                Emerging as a vibrant academic hub in Western MP, CVRU Khandwa actively supports engineering, science, and education tracks at the event.
+                Emerging as a vibrant academic hub in Western MP, CVRU Khandwa
+                actively supports engineering, science, and education tracks at
+                the event.
               </p>
               <ul>
                 <li>Focus on community-oriented research</li>
                 <li>Encourages student-led research presentations</li>
-                <li>
-                  Strong local outreach and academic mobilization
-                </li>
+                <li>Strong local outreach and academic mobilization</li>
               </ul>
             </div>
           </div>
@@ -736,9 +884,18 @@
           <div class="sponsor-card">
             <div class="image-slider">
               <div class="image-track" data-index="0">
-                <img src="./public/homepage/co-sponsor-card-img1.png" alt="Image 1" />
-                <img src="./public/homepage/co-sponsor-card-img3.png" alt="Image 2" />
-                <img src="./public/homepage/co-sponsor-card-img5.png" alt="Image 3" />
+                <img
+                  src="./public/homepage/co-sponsor-card-img1.png"
+                  alt="Image 1"
+                />
+                <img
+                  src="./public/homepage/co-sponsor-card-img3.png"
+                  alt="Image 2"
+                />
+                <img
+                  src="./public/homepage/co-sponsor-card-img5.png"
+                  alt="Image 3"
+                />
               </div>
               <button class="slider-btn prev" onclick="slideImage(this, -1)">
                 ‹
@@ -755,14 +912,16 @@
               />
               <h3>AISECT University, Jharkhand</h3>
               <p>
-                With strong ties to local development and tribal research, AISECT University Jharkhand brings unique perspectives to social innovation and sustainability themes.
+                With strong ties to local development and tribal research,
+                AISECT University Jharkhand brings unique perspectives to social
+                innovation and sustainability themes.
               </p>
               <ul>
                 <li>Emphasis on rural entrepreneurship</li>
-                <li>Participate in agriculture, education, & social sciences</li>
                 <li>
-                  Strong paper submissions in grassroots innovation
+                  Participate in agriculture, education, & social sciences
                 </li>
+                <li>Strong paper submissions in grassroots innovation</li>
               </ul>
             </div>
           </div>
@@ -771,9 +930,18 @@
           <div class="sponsor-card">
             <div class="image-slider">
               <div class="image-track" data-index="0">
-                <img src="./public/homepage/co-sponsor-card-img3.png" alt="Image 1" />
-                <img src="./public/homepage/co-sponsor-card-img2.png" alt="Image 2" />
-                <img src="./public/homepage/co-sponsor-card-img1.png" alt="Image 3" />
+                <img
+                  src="./public/homepage/co-sponsor-card-img3.png"
+                  alt="Image 1"
+                />
+                <img
+                  src="./public/homepage/co-sponsor-card-img2.png"
+                  alt="Image 2"
+                />
+                <img
+                  src="./public/homepage/co-sponsor-card-img1.png"
+                  alt="Image 3"
+                />
               </div>
               <button class="slider-btn prev" onclick="slideImage(this, -1)">
                 ‹
@@ -790,14 +958,14 @@
               />
               <h3>Scope Global Skills University</h3>
               <p>
-                India’s first skill-based university, SGSU is redefining employability through applied learning and industry-linked research, making it a vital co-host.
+                India’s first skill-based university, SGSU is redefining
+                employability through applied learning and industry-linked
+                research, making it a vital co-host.
               </p>
               <ul>
                 <li>Industry-integrated research & project showcase</li>
                 <li>Skill-based innovation & prototype development</li>
-                <li>
-                  Mentorship & startup incubation for selected projects
-                </li>
+                <li>Mentorship & startup incubation for selected projects</li>
               </ul>
             </div>
           </div>
@@ -816,9 +984,397 @@
       </div>
     </section>
 
+    <!-- Reviews Section  -->
+    <section class="reviews">
+      <div class="reviews-container">
+        <!-- Left: Swipable Video Carousel -->
+        <div class="testimonial-video-carousel">
+          <div class="video-track" id="videoTrack">
+            <video
+              autoplay
+              muted
+              loop
+              poster="./public/static/video1-thumb.jpg"
+            >
+              <source
+                src="./public/homepage/review-video1.mp4"
+                type="video/mp4"
+              />
+            </video>
+            <video
+              autoplay
+              muted
+              loop
+              poster="./public/static/video1-thumb.jpg"
+            >
+              <source
+                src="./public/homepage/review-video1.mp4"
+                type="video/mp4"
+              />
+            </video>
+            <video
+              autoplay
+              muted
+              loop
+              poster="./public/static/video1-thumb.jpg"
+            >
+              <source
+                src="./public/homepage/review-video1.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+          <div class="video-controls-container">
+            <div class="video-controls">
+              <button class="">▶</button>
+              <p class="video-description">Watch Testimonial</p>
+            </div>
+            <div class="video-controls">
+              <button onclick="prevVideo()">&#171;</button>
+              <button onclick="nextVideo()">&#187;</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Testimonial Text -->
+        <div class="testimonial-text">
+          <h4 class="section-subtitle">Reviews</h4>
+          <h2 class="section-title">Check Our Testimonials Say</h2>
+
+          <div class="testimonial-slide" id="testimonial-slide">
+            <!-- JS will populate -->
+          </div>
+
+          <div class="testimonial-nav">
+            <button onclick="prevTestimonial()">&#171;</button>
+            <button onclick="nextTestimonial()">&#187;</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+      <div class="gallery-container">
+        <!-- Left Static Content -->
+        <div class="gallery-text">
+          <button class="show-less">Show Less</button>
+          <div class="section-header">
+            <img
+              src="./public/static/soft-star.png"
+              class="section-header-img"
+              alt=""
+            />
+            <h3 class="section-subtitle">Gallery</h3>
+            <img
+              src="./public/static/soft-star.png"
+              class="section-header-img"
+              alt=""
+            />
+          </div>
+          <h2 class="section-title">Shodh Shikhar Gallery</h2>
+          <p class="gallery-text-para">
+            <strong>Shodh Shikhar</strong> is a national platform that brings
+            together researchers, innovators, and science communicators to
+            foster collaboration, share groundbreaking ideas, and promote public
+            understanding of science.
+          </p>
+          <p class="gallery-text-para">
+            The conference celebrates excellence across disciplines through
+            prestigious awards such as Best Research Paper, Young Innovator,
+            Science Communicator of the Year, and more. Winners are honored with
+            certificates, trophies, recognition, and valuable networking
+            opportunities —
+            <strong
+              >making Shodh Shikhar not just a conference — but a
+              launchpad</strong
+            >
+            for impactful ideas and future leaders in science and innovation.
+          </p>
+          <!-- Controls -->
+          <div class="gallery-controls">
+            <button id="galleryPrev">&#8592;</button>
+            <button id="galleryNext">&#8594;</button>
+          </div>
+        </div>
+
+        <!-- Right Image Slider -->
+        <div class="gallery-slider-wrapper">
+          <div class="gallery-slider">
+            <div class="gallery-track" id="galleryTrack">
+              <div class="gallery-slide">
+                <img src="./public/homepage/gallery-img1.png" alt="Gallery 1" />
+                <h4>Title</h4>
+                <p>Dummy Content</p>
+              </div>
+              <div class="gallery-slide">
+                <img src="./public/homepage/gallery-img2.png" alt="Gallery 2" />
+                <h4>Title</h4>
+                <p>Dummy Content</p>
+              </div>
+              <div class="gallery-slide">
+                <img src="./public/homepage/gallery-img3.png" alt="Gallery 3" />
+                <h4>Title</h4>
+                <p>Dummy Content</p>
+              </div>
+              <div class="gallery-slide">
+                <img src="./public/homepage/gallery-img1.png" alt="Gallery 3" />
+                <h4>Title</h4>
+                <p>Dummy Content</p>
+              </div>
+              <div class="gallery-slide">
+                <img src="./public/homepage/gallery-img2.png" alt="Gallery 3" />
+                <h4>Title</h4>
+                <p>Dummy Content</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Winners Section -->
+    <section class="winner-section">
+      <div class="section-subheading">
+        <h3 class="section-subtitle">Winners</h3>
+        <h2 class="section-title">Shodh Shikhar Winner Lists</h2>
+      </div>
+
+      <!-- Year Tabs -->
+      <div class="year-tabs-container">
+        <div class="year-tabs">
+          <button class="year-tab active" data-year="2025">Winner 2025</button>
+          <button class="year-tab" data-year="2024">Winner 2024</button>
+          <button class="year-tab" data-year="2023">Winner 2023</button>
+          <button class="year-tab" data-year="2022">Winner 2022</button>
+          <button class="year-tab" data-year="2021">Winner 2021</button>
+        </div>
+      </div>
+
+      <!-- Year Tables Container -->
+      <div class="year-tables-wrapper">
+        <!-- Year content will be dynamically injected by JS -->
+      </div>
+    </section>
+
+    <!-- showcasing section -->
+    <section class="showcasing-section">
+      <!-- Top Part -->
+      <div class="showcasing-section-top-part">
+        <div class="showcasing-img-section">
+          <img
+            src="./public/homepage/showcase-img1.png"
+            class="showcasing-img"
+            alt="Showcasing Girl"
+          />
+        </div>
+        <div class="showcasing-content">
+          <h2 class="showcasing-content-heading">Showcasing</h2>
+          <h1 class="showcasing-content-title">
+            Innovation & Commercialization
+          </h1>
+          <p class="showcasing-content-top-paragraph">
+            A key highlight of Shodh Shikhar is its strong emphasis on applied
+            research and real-world impact, providing a unique platform for
+            young innovators and researchers to showcase their projects with
+            commercialization potential.
+          </p>
+          <p class="showcasing-content-top-paragraph">
+            Each year, researchers from diverse disciplines present innovative
+            prototypes, models, and research-driven solutions that address
+            contemporary challenges in areas such as technology, healthcare,
+            agriculture, education, environmental sustainability, and social
+            entrepreneurship.
+          </p>
+
+          <h3 class="showcasing-subtitle">
+            Features of Research Project Showcasing at Shodh Shikhar:
+          </h3>
+          <ul class="showcasing-list">
+            <li>
+              <strong>Dedicated Project Demonstration Zones:</strong><br />
+              Spaces for participants to demonstrate their research prototypes,
+              working models, and innovations to a live audience including
+              academic faculty, industry experts, investors, and fellow
+              researchers.
+            </li>
+            <li>
+              <strong>Interdisciplinary Project Categories:</strong><br />
+              Categories include Engineering & Technology, Agriculture, Medical
+              Innovations, Science Communication, and Industry-Academia
+              Collaboration.
+            </li>
+            <li>
+              <strong>Live Feedback from Industry and Academia:</strong><br />
+              Constructive feedback and mentorship from industrial partners,
+              investors, AIC-RNTU incubator, and senior academicians to refine
+              ideas for market readiness.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Bottom Part -->
+      <div class="showcasing-section-bottom-part">
+        <div class="showcasing-bottom-text">
+          <h2 class="showcasing-content-title">
+            Commercialization and Startup Opportunities
+          </h2>
+          <p>
+            <strong>Product/Idea Pitch Sessions:</strong> <br />
+            Opportunity to pitch research innovations and business ideas to
+            investors, startup mentors, and incubation experts for funding and
+            support.
+          </p>
+          <p>
+            <strong>Linkages with AIC-RNTU Incubation Ecosystem:</strong> <br />
+            In partnership with AIC-RNTU, researchers receive post-event support
+            for prototype development, patent filing, market testing, and
+            scaling.
+          </p>
+          <p>
+            <strong>Recognition and Awards:</strong> <br />
+            Projects with high commercialization potential are recognized
+            through special awards such as Best Innovation for Social Impact,
+            Best Research Commercialization, and Industry Choice Awards.
+          </p>
+          <p><strong>Impact So Far:</strong></p>
+          <ul class="impact-list">
+            <li>
+              More than 100 research projects showcased, solving key social,
+              technological, agricultural, and healthcare problems.
+            </li>
+            <li>
+              Many researchers have converted ideas into startups with support
+              from AIC-RNTU.
+            </li>
+            <li>
+              Shodh Shikhar continues to be a vibrant platform for connecting
+              research with real-world applications.
+            </li>
+          </ul>
+        </div>
+        <div class="showcasing-img-section2">
+          <img
+            src="./public/homepage/showcase-img2.png"
+            class="showcasing-img"
+            alt="Showcasing Group"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Announcement Marquee -->
+    <section class="marquee-section-container-for-showcasing">
+      <section class="announcement-bar-for-showcasing">
+        <div class="marquee-wrapper-for-showcasing">
+          <div class="marquee-content-for-showcasing">
+            <span>shodh shikhar 2025</span>
+            <span>shodh shikhar 2025</span>
+            <span>shodh shikhar 2025</span>
+            <span>shodh shikhar 2025</span>
+            <span>shodh shikhar 2025</span>
+            <span>shodh shikhar 2025</span>
+            <span>shodh shikhar 2025</span>
+            <span>shodh shikhar 2025</span>
+            <span>shodh shikhar 2025</span>
+            <span>shodh shikhar 2025</span>
+            <span>shodh shikhar 2025</span>
+            <span>shodh shikhar 2025</span>
+            <span>shodh shikhar 2025</span>
+            <span>shodh shikhar 2025</span>
+            <span>shodh shikhar 2025</span>
+            <span>shodh shikhar 2025</span>
+            <span>shodh shikhar 2025</span>
+            <span>shodh shikhar 2025</span>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- footer section -->
+    <footer class="footer-section">
+
+      <div class="footer-section-clip-path">
+        <div class="footer-section-clip-path-img">
+          <img src="./public/homepage/footer-clip-img.png" alt="">
+        </div>
+      </div>
+      <div class="footer-container">
+      <!-- Left -->
+      <div class="footer-left">
+        <h2>Our Address</h2>
+        <div class="footer-contact">
+          <p>
+            <img src="./public/homepage/icons/footer-location-icon.png" alt="">
+            <span><strong>Rabindranath Tagore University</strong><br />
+            Mendua, Post: Bhopal, Near Bangrasia Chauraha,<br />
+            Bhopal–Chiklod Road, Bhopal (M.P.)</span>
+          </p>
+          <p>
+            <img src="./public/homepage/icons/footer-contact-icon.png" alt="">
+            <span>shodhshikhar@rntuniversity.ac.in<br />0755–2700431</span>
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <h3>Useful Links</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Register</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Important Dates</a></li>
+            <li><a href="#">Winners</a></li>
+            <li><a href="#">Instructions</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Right (Contact Form) -->
+      <div class="footer-right">
+        <form class="contact-form">
+          <input type="text" placeholder="Full Name" required />
+          <input type="email" placeholder="Email Address" required />
+          <input type="tel" placeholder="Contact Number" required />
+          <textarea placeholder="Message" rows="4" required></textarea>
+          <label class="form-checkbox">
+            <input type="checkbox" required /> I am not Robot.
+          </label>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </footer>
+  <!-- Bottom -->
+  <div class="footer-bottom">
+    <img
+      src="./public/static/shodh-shikhar-logo.png"
+      alt="logo"
+      class="footer-logo"
+    />
+    <p>© 2025 shodhshikhar. All rights reserved.</p>
+    <!-- <div class="footer-policy">
+      <a href="#">Privacy Policy</a>
+      <span>|</span>
+      <a href="#">Terms of Service</a>
+    </div> -->
+    <div class="footer-social">
+      <a href="#"><img src="./public/homepage/icons/footer-social-icon1.png" alt=""></a>
+      <a href="#"><img src="./public/homepage/icons/footer-social-icon2.png" alt=""></a>
+      <a href="#"><img src="./public/homepage/icons/footer-social-icon3.png" alt=""></a>
+      <a href="#"><img src="./public/homepage/icons/footer-social-icon4.png" alt=""></a>
+    </div>
+  </div>
+
     <!-- javascript -->
+    <script src="./public/libs/jspdf.umd.min.js"></script>
+    <script src="./public/libs/jspdf.plugin.autotable.min.js"></script>
+    <script src="./public/libs/xlsx.full.min.js"></script>
     <script src="./js/main.js"></script>
     <script src="./js/homepage.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- PDF and Excel Export -->
   </body>
 </html>

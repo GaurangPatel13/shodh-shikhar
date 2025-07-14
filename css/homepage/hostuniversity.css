@@ -245,4 +245,53 @@
   .host-university .host-slider-wrapper .slider-track img {
     height: 180px;
   }
+
+  .host-university .host-slider-wrapper .slider-logo-container .slider-title {
+    font-size: 3rem;
+    width: 24%;
+  }
+
+  .host-university .host-slider-wrapper .slider-logo {
+    width: 29rem;
+  }
+
+  .host-university .co-sponsor-section .sponsor-grid .sponsor-card {
+    flex-direction: column;
+  }
+
+  .host-university .co-sponsor-section .sponsor-grid .sponsor-card .sponsor-content {
+    padding: 1rem;
+  }
+
+  .host-university .co-sponsor-section .co-sponsor-logos img {
+    width: 14rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .host-university {
+    padding: 2rem 1rem;
+  }
+
+  .host-university .host-slider-wrapper .slider-logo-container .slider-title {
+    font-size: 2rem;
+    width: 17%;
+  }
+
+  .host-university .host-slider-wrapper .slider-logo {
+        width: 20rem;
+    }
+  
+  .host-university .host-content .about-rntu .about-description {
+    text-align: justify;
+  }
+
+  .host-university .co-sponsor-section .sponsor-grid {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.host-university .co-sponsor-section {
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+}
 }

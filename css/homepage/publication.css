@@ -186,4 +186,9 @@
     justify-content: center;
     gap: 1.2rem;
   }
+  
+  .pub-image::before {
+    top: -0.7rem;
+    left: 0.7rem;
+  }
 }
