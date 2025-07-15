@@ -15,7 +15,7 @@
 }
 
 .logo img {
-  height: 60px;
+  height: 6rem;
   width: auto;
 }
 
@@ -124,6 +124,15 @@
   color: white;
 }
 
+@media screen and (min-width: 1700px) {
+  .nav-links a, .btn {
+    font-size: 1.6rem;
+  }
+
+  .navbar { 
+    padding: 1.5rem 2rem;
+  }
+}
 
 /* Responsive */
 @media (max-width: 991px) {
@@ -172,5 +181,11 @@
 
   .hamburger {
     display: block;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .logo img {
+    height: 4rem;
   }
 }

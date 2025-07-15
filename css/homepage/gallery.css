@@ -150,6 +150,29 @@
   font-weight: 500;
 }
 
+@media screen and (min-width: 1700px) {
+  .gallery-section .gallery-container .gallery-text .show-less {
+    font-size: 1.8rem;
+  }
+
+  .gallery-section .gallery-container .gallery-text .section-header .section-subtitle {
+    font-size: 2rem;
+  }
+
+  .gallery-section .gallery-container .gallery-text .section-header .section-header-img {
+    width: 3rem;
+  }
+
+  .gallery-text .section-title {
+    font-size: 3rem
+  }
+
+  .gallery-text p {
+    font-size: 1.8rem;
+    line-height: 3rem;
+  }
+}
+
 @media (max-width: 768px) {
   .gallery-container {
     flex-direction: column;

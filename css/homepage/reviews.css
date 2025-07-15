@@ -142,6 +142,25 @@
   background: #001e44;
 }
 
+@media screen and (min-width: 1700px) {
+  .testimonial-text .section-subtitle {
+    font-size: 2rem;
+  }
+
+  .testimonial-video-carousel .video-controls-container .video-controls button {
+    font-size: 2rem;
+    padding: 1rem 1.5rem;
+  }
+
+  .testimonial-video-carousel .video-controls-container .video-controls .video-description {
+    font-size: 1.7rem;
+  }
+
+  .testimonial-video-carousel .video-controls-container {
+    width: 95%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .reviews-container {
     flex-direction: column;

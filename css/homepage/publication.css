@@ -156,6 +156,36 @@
   object-fit: contain;
 }
 
+@media screen and (min-width: 1700px) {
+  .pub-subtitle {
+    font-size: 2rem;
+  }
+
+  .pub-content .pub-subheading .pub-subheading-img {
+    width: 3rem;
+}
+
+.pub-title{
+    font-size: 3.5rem;
+ }
+
+ .pub-tagline {
+    font-size: 2rem;
+ }
+
+ .pub-intro {
+    font-size: 1.8rem;
+ }
+
+ .pub-card h4 {
+    font-size: 2.2rem;
+ }
+
+ .card-tag, .pub-card ul {
+    font-size: 1.5rem;
+ }
+}
+
 /* Responsive */
 @media (max-width: 1024px) {
   .pub-container {

@@ -56,6 +56,15 @@
   }
 }
 
+@media screen and (min-width: 1700px) {
+  .announcement-bar {
+    height: 6.5rem;
+    font-size: 1.7rem;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+}
+
 /* Responsive font size */
 @media (max-width: 768px) {
   .announcement-bar {

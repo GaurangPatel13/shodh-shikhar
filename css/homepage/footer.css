@@ -212,6 +212,24 @@
   color: var(--primary-clr);
 }
 
+@media screen and (min-width: 1700px) {
+  .footer-container {
+    padding: 12rem;
+  }
+
+  .contact-form input, .contact-form textarea, .form-checkbox, .contact-form button {
+    font-size: 2rem;
+  }
+
+  .footer-right {
+    padding: 3rem;
+  }
+
+  .footer-social a img {
+    width: 9rem;
+  }
+}
+
 @media screen and (max-width: 900px){
   .footer-section-clip-path {
     display: none;

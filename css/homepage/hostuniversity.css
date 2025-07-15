@@ -236,6 +236,40 @@
   object-fit: contain;
 }
 
+@media screen and (min-width: 1700px) {
+  .host-university .section-subheading .section-subtitle {
+    font-size: 2rem;
+  }
+
+  .host-university .section-subheading .section-title, .host-university .co-sponsor-section .section-title {
+    font-size: 3.5rem;
+  }
+
+  .host-university .co-sponsor-section .sponsor-grid .sponsor-card .sponsor-content .sponsor-logo {
+    width: 22rem;
+  }
+
+  .host-university .co-sponsor-section .sponsor-grid .sponsor-card .sponsor-content p {
+    font-size: 1.5rem;
+  }
+
+  .host-university .co-sponsor-section .sponsor-grid .sponsor-card .sponsor-content h3 {
+    font-size: 1.8rem;
+  }
+
+  .host-university .co-sponsor-section .sponsor-grid .sponsor-card .sponsor-content ul {
+    font-size: 1.5rem;
+  }
+
+  .host-university .co-sponsor-section .sponsor-grid .sponsor-card {
+    align-items: center;
+  }
+
+  .host-university .co-sponsor-section .co-sponsor-logos {
+    justify-content: space-evenly;
+  }
+}
+
 
 @media (max-width: 768px) {
   .host-university .host-slider-wrapper {

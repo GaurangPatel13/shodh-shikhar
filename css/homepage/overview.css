@@ -126,6 +126,44 @@
   object-fit: cover;
 }
 
+@media screen and (min-width: 1700px) {
+  .overview-content {
+    width: 57%;
+  }
+
+  .overview-label {
+    font-size: 2rem;
+  }
+
+  .overview-content .overview-label-container .overview-label-icon {
+    width: 3rem;
+  }
+
+  .overview-title {
+    font-size: 3.7rem;
+  }
+
+  .overview-container .overview-content .overview-logo {
+    width: 30rem;
+}
+
+  .overview-description {
+    font-size: 1.7rem;
+  }
+
+  .unique-title {
+    font-size: 2.1rem;
+  }
+
+  .overview-highlight {
+    font-size: 1.8rem;
+  }
+
+  .overview-list {
+    font-size: 1.7rem;
+ }
+}
+
 /* Responsive */
 @media (max-width: 1024px) {
   .overview-container {

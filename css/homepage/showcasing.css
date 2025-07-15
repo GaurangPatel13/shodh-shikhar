@@ -198,6 +198,28 @@
   }
 }
 
+@media screen and (min-width: 1700px) {
+  .showcasing-content-heading {
+    font-size: 2rem;
+  }
+
+  .showcasing-content-title {
+    font-size: 3.5rem;
+  }
+
+  .showcasing-content-top-paragraph, .showcasing-bottom-text p {
+    font-size: 1.8rem;
+  }
+
+  .showcasing-subtitle {
+    font-size: 2.2rem;
+  }
+
+  .showcasing-list, .impact-list {
+    font-size: 1.5rem;
+  }
+}
+
 
 @media (max-width: 768px) {
   .showcasing-section-top-part,

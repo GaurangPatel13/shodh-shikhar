@@ -172,7 +172,7 @@
   padding: 0.5rem;
   border: 1px solid #ccc;
   text-align: left;
-  min-width: 20rem;
+  max-width: 40rem;
 }
 
 .pagination-controls {
@@ -239,6 +239,39 @@
   user-select: none;
 }
 
+@media screen and (min-width: 1700px) {
+  .winner-section .section-subheading .section-subtitle, .year-tab, .table-container {
+    font-size: 2rem;
+  }
+
+  .winner-section .section-subheading .section-title {
+    font-size: 3.5rem;
+  }
+
+  .year-tab.active {
+    border: 2px solid var(--primary-clr);
+    font-weight: 700;
+  }
+
+  .inner-tab, .table-controls .download-btn, .table-controls .search-input, .pagination-controls .rows-label, .pagination-controls .rows-label .rows-per-page {
+    font-size: 1.8rem;
+  }
+
+  .table-container .winner-table thead {
+    height: 6.5rem;
+  }
+
+  .table-container .winner-table tbody tr {
+    height: 5.5rem;
+  }
+
+  .pagination button {
+    font-size: 1.8rem;
+    width: 40px;
+    height: 40px;
+  }
+}
+
 
 @media screen and (max-width: 1024px){
   .winner-section {
@@ -280,5 +313,9 @@
 
 .table-controls .download-btn {
     width: 100%;
+}
+
+.year-tabs-container {
+  justify-content: start;
 }
 }
