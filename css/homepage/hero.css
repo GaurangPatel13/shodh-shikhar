@@ -135,6 +135,30 @@
   transition: opacity 0.3s ease;
 }
 
+@media screen and (min-width: 1700px) {
+  .hero-slider {
+    padding: 0 3.5rem;
+  }
+
+  .swiper-wrapper .swiper-slide .slide-caption h2 {
+    font-size: 3.5rem;
+  }
+
+  .swiper-button-prev:after, .swiper-button-next:after {
+    font-size: 4.5rem;
+    padding: 1rem 2.3rem;
+  }
+
+  .thumbSwiper {
+    width: 55rem;
+    height: 31rem;
+  }
+
+  .swiper-button-prev {
+    top: 40%;
+  }
+}
+
 @media screen and (max-width: 990px) {
   .thumbSwiper {
     display: none;

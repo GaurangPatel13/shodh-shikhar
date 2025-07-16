@@ -200,23 +200,31 @@
 
 @media screen and (min-width: 1700px) {
   .showcasing-content-heading {
-    font-size: 2rem;
-  }
-
-  .showcasing-content-title {
     font-size: 3.5rem;
   }
 
+  .showcasing-content-title {
+    font-size: 4.5rem;
+  }
+
   .showcasing-content-top-paragraph, .showcasing-bottom-text p {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
   }
 
   .showcasing-subtitle {
-    font-size: 2.2rem;
+    font-size: 3.2rem;
   }
 
   .showcasing-list, .impact-list {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+  }
+
+  .showcasing-img-section, .showcasing-img-section2 {
+    max-width: 50rem;
+  }
+
+  .announcement-bar-for-showcasing {
+    font-size: 14rem;
   }
 }
 

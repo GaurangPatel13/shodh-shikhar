@@ -59,10 +59,19 @@
 @media screen and (min-width: 1700px) {
   .announcement-bar {
     height: 6.5rem;
-    font-size: 1.7rem;
+    font-size: 2.1rem;
     padding: 1rem;
     margin: 1rem 0;
 }
+
+.announcement-bar .marquee-wrapper .marquee-content span {
+  font-size: 2.5rem;
+}
+
+.marquee-section-container {
+    padding: 2rem 3.5rem;
+}
+
 }
 
 /* Responsive font size */

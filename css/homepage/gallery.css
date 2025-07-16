@@ -151,25 +151,51 @@
 }
 
 @media screen and (min-width: 1700px) {
+
+  .gallery-section {
+    padding: 4rem 3.5rem;
+  }
+
   .gallery-section .gallery-container .gallery-text .show-less {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
   }
 
   .gallery-section .gallery-container .gallery-text .section-header .section-subtitle {
-    font-size: 2rem;
+    font-size: 3.5rem;
   }
 
   .gallery-section .gallery-container .gallery-text .section-header .section-header-img {
-    width: 3rem;
+    width: 4.5rem;
   }
 
   .gallery-text .section-title {
-    font-size: 3rem
+    font-size: 4.5rem
   }
 
   .gallery-text p {
-    font-size: 1.8rem;
-    line-height: 3rem;
+    font-size: 2.5rem;
+    line-height: 4.5rem;
+  }
+
+  .gallery-controls button {
+    font-size: 3.5rem;
+  }
+
+  .gallery-slide img {
+    max-height: 62rem;
+  }
+
+  .gallery-slide h4 {
+    font-size: 3.4rem;
+  }
+
+  .gallery-slide p {
+    font-size: 2.2rem;
+  }
+
+  .gallery-text {
+    width: 38%;
+    padding-left: 2rem;
   }
 }
 

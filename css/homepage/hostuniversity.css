@@ -237,28 +237,60 @@
 }
 
 @media screen and (min-width: 1700px) {
-  .host-university .section-subheading .section-subtitle {
-    font-size: 2rem;
+
+  .host-university {
+    padding: 4rem 3.5rem;
   }
 
-  .host-university .section-subheading .section-title, .host-university .co-sponsor-section .section-title {
+  .host-university .host-slider-wrapper {
+    height: 50rem;
+  }
+
+  .host-university .host-slider-wrapper .slider-logo {
+    width: 70rem;
+  }
+
+  .host-university .host-content .about-rntu .about-description {
+    font-size: 2.7rem;
+    line-height: 4.5rem;
+  }
+
+  .host-university .host-slider-wrapper .slider-logo-container .slider-title {
+    width: 60%;
+    font-size: 9rem;
+  }
+
+  .host-university .section-subheading .section-subtitle {
     font-size: 3.5rem;
   }
 
+  .host-university .section-subheading .section-title, .host-university .co-sponsor-section .section-title {
+    font-size: 4.5rem;
+  }
+
   .host-university .co-sponsor-section .sponsor-grid .sponsor-card .sponsor-content .sponsor-logo {
-    width: 22rem;
+    width: 41rem;
   }
 
   .host-university .co-sponsor-section .sponsor-grid .sponsor-card .sponsor-content p {
-    font-size: 1.5rem;
+    font-size: 2.2rem;
   }
 
   .host-university .co-sponsor-section .sponsor-grid .sponsor-card .sponsor-content h3 {
-    font-size: 1.8rem;
+    font-size: 2.8rem;
   }
 
   .host-university .co-sponsor-section .sponsor-grid .sponsor-card .sponsor-content ul {
-    font-size: 1.5rem;
+    font-size: 2.2rem;
+  }
+
+  .host-university .co-sponsor-section .sponsor-grid .sponsor-card .image-slider img, .host-university .co-sponsor-section .sponsor-grid .sponsor-card .image-slider {
+    height: 40rem;
+  }
+
+  .host-university .co-sponsor-section .sponsor-grid .sponsor-card .image-slider .slider-btn {
+    font-size: 4rem;
+    padding: 0.5rem 2.3rem;
   }
 
   .host-university .co-sponsor-section .sponsor-grid .sponsor-card {

@@ -132,35 +132,43 @@
   }
 
   .overview-label {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .overview-content .overview-label-container .overview-label-icon {
-    width: 3rem;
+    width: 4.5rem;
   }
 
   .overview-title {
-    font-size: 3.7rem;
+    font-size: 4.7rem;
   }
 
   .overview-container .overview-content .overview-logo {
-    width: 30rem;
+    width: 40rem;
+}
+
+.overview-subtitle {
+  font-size: 2.4rem;
 }
 
   .overview-description {
-    font-size: 1.7rem;
+    font-size: 2.5rem;
   }
 
   .unique-title {
-    font-size: 2.1rem;
+    font-size: 3.5rem;
   }
 
   .overview-highlight {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
   }
 
   .overview-list {
-    font-size: 1.7rem;
+    font-size: 2.2rem;
+ }
+
+ .overview-section {
+  padding: 4rem 3.5rem;
  }
 }
 

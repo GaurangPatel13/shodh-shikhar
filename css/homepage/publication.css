@@ -157,32 +157,44 @@
 }
 
 @media screen and (min-width: 1700px) {
+  .publications-section {
+    padding: 6rem 3.5rem;
+  }
+
+  .pub-image {
+    max-width: 47rem;
+  }
+  
   .pub-subtitle {
-    font-size: 2rem;
+    font-size: 3.5rem;
   }
 
   .pub-content .pub-subheading .pub-subheading-img {
-    width: 3rem;
+    width: 4.5rem;
 }
 
 .pub-title{
-    font-size: 3.5rem;
+    font-size: 4.5rem;
  }
 
  .pub-tagline {
-    font-size: 2rem;
+    font-size: 2.7rem;
  }
 
  .pub-intro {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
  }
 
  .pub-card h4 {
-    font-size: 2.2rem;
+    font-size: 3rem;
  }
 
  .card-tag, .pub-card ul {
-    font-size: 1.5rem;
+    font-size: 2.2rem;
+ }
+
+ .pub-cards-grid {
+    grid-template-columns: repeat(2, 1fr);
  }
 }
 

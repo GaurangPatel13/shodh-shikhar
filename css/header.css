@@ -126,12 +126,20 @@
 
 @media screen and (min-width: 1700px) {
   .nav-links a, .btn {
-    font-size: 1.6rem;
+    font-size: 2.1rem;
   }
 
   .navbar { 
-    padding: 1.5rem 2rem;
+    padding: 2.5rem 2rem;
   }
+
+  .header {
+    padding: 2.2rem 3.5rem;
+}
+
+.logo img {
+    height: 8rem;
+} 
 }
 
 /* Responsive */

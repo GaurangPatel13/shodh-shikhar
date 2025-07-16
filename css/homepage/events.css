@@ -170,36 +170,49 @@
 }
 
 @media screen and (min-width: 1700px) {
+
+  .events-section {
+    padding: 5rem 3.5rem;
+  }
+
   .events-grid .event-card .card-body .theme strong, .events-grid .event-card .card-body .theme {
-    font-size: 1.6rem;
+    font-size: 2.2rem;
   }
 
   .events-grid .event-card .card-body .highlight-title, .events-grid .event-card .card-body ul, .events-grid .event-card .card-body .btn {
-    font-size: 1.4rem;
+    font-size: 2.2rem;
   }
 
   .events-grid .event-card .card-body ul span {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
   }
 
   .events-heading .events-subheading .events-subtitle {
-    font-size: 2rem;
+    font-size: 3.5rem;
   }
 
   .events-heading .events-subheading img {
-    width: 3rem;
+    width: 4.5rem;
+}
+
+.events-grid {
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .events-title {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
 }
 
 .events-grid .event-card .event-card-title .card-title {
-  font-size: 2.4rem;
+  font-size: 2.7rem;
 }
 
 .events-grid .event-card .event-card-title .event-card-title-image {
-    width: 6rem;
+    width: 7rem;
+}
+
+.image-grid { 
+  height: 30rem;
 }
 }
 
